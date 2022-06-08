@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/registration-styles.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="About Me.html" ><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li><a href="Contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
+                        <li><a href="Registration.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Registration</a></li>
+                        <li><a href="Login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
+                    </ul>
+                  
+                </nav>
+            </header>
+            <main>
+                <div class="formcontainer">
+                    <div class="card">
+                        <h2 class="title">Registration Form</h2>
+                        <form>
+                            <div class="row">
+                                <div class="column">
+                                    <label for="firstname" class="label">First Name:</label>
+                                    <input type="text", name="firstname", id="firstname", class="input-style" required>          
+                                </div> 
+                                <div class="column">
+                                    <label for="lastname" class="label">Last Name:</label>
+                                    <input type="text", name="lastname", id="lastname" class="input-style" required>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <label for="phone" class="label">Phone:</label>
+                                    <input type="tel" name="phone", id="phone" class="input-style" required>
+                                </div> 
+                        
+                                <div class="column">
+                                    <label for="gender" class="label">Gender:</label>
+                                    <select name="gender" class="input-style">
+                                        <option value="Female">Female</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Non-binary">Non-binary</option>
+                                        <option value="Perfer-not-to-say">Perfer not to say</option>
+                                      </select>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                  
+                              <label for="country"class="label">Country:</label>
+                              <input type="text", name="country", id="country" class="input-style" required>
+                                </div> 
+                                <div class="column">
+                                    <label for="state" class="label">State/Province:</label>
+                                    <input type="text", name="state", id="province"  class="input-style" required>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <label for="email" class="label">Email</label>
+                                    <input type="email" name="email" id="email" class="input-style" required>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <label for="password" class="label">Password:</label>
+                                    <input type="password", name="password", id="pasword"  class="input-style" placeholder="********" required>
+                                </div> 
+                                <div class="column">
+                                    <label for="confirm" class="label">Confirm Password</label>
+                                    <input type="password" name="confirm" id="confirm" class="input-style" required>
+                                </div> 
+                            </div>
+  
+                            <div class="button">
+                                <button class="btn" type="submit">Submit</button>
+                           </div>
+                        </form>
+
+                    </div>
+
+                   
+                </div>
+            </main>
+            <footer>
+                <div class="links">
+                    <p>About Me</p>
+                    <ul>
+                        <li><a href="About Me.html" >Home</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Registration.html"> Registration</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <div class="twitter"><a href="https://www.twitter.com/Leo_Bolo0077"><i class="fa fa-twitter tw"></i></a></div>
+                    <div class="github"><a href="https://www.github.com/leobolo"><i class="fa fa-github git" ></i></a></div>
+                    <div class="mail"> <a href="mailto:aoluwasegun90@yahoo.com"><i class="fa fa-envelope-o mail"></i></a></div>
+                </div>
+                
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+body{
+    margin: 0;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+.nav >ul > li {
+    float: left;
+  }
+  
+ .nav> ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+footer{
+  width: 96%;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+.links >ul{
+  list-style-type: none;
+}
+.tw{
+  background: #fff;
+  color: #1DA1F2;
+  font-size: 30px;
+  
+}
+.git{
+  background: #fff;
+  color: #333;
+  font-size: 30px;
+}
+.mail{
+  background: #fff;
+  color: blue;
+  font-size: 30px;
+}
